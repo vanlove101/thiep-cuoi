@@ -94,6 +94,11 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                        <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-3.jpg">
+                        </div> <!-- end slide-inner -->
+                    </div> <!-- end swiper-slide -->
+
+                    <div class="swiper-slide">
                         <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-5.jpg">
                         </div> <!-- end slide-inner -->
                     </div> <!-- end swiper-slide -->
@@ -486,42 +491,28 @@
         </section>
         <!-- end wpo-event-section -->
 
-        <!-- wpo-site-footer start -->
-        <div class="wpo-site-footer text-center" id="thank">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row text-center">
-                            <p style="font-family: monallesia; color: #000; display: block; margin: auto; font-size: 4rem;">Thank you</p>
+         <!-- start wpo-thank-section -->
+         <section class="wpo-event-section section-padding pb-0" id="thank" style="margin-bottom: 20px">
+            <div class="container" >
+                <div class="wpo-section-title">
+                    <h2>Lời cảm ơn</h2>
+                </div>
+                <div class="wpo-thank-wrap" style="position: relative; height: 700px">
+                    <div class="content" style="font-family: monallesia; font-size: 14px; height: 400px; display: block; margin: auto; width: 50%; font-size: 2.5rem;">
+                        <p class="conttent-wrap" style="font-size: 2.5rem; color: #000; padding-top: 100px;">
+                            Thay mặt gia đình tôi xin chân thành cảm quí vị.
+                        </p>
+                        <div class="mt-3">
+                            <p style="font-family: monallesia; color: #000; float: right; font-size: 3rem;" class="pull-right thank">Thank you</p>
+                            <span></span>
                         </div>
                     </div>
-                    <!-- <div class="col-12">
-                        <div class="footer-link">
-                            <ul>
-                                <li><a href="index.html">Tra</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="index-2.html">Wedding</a></li>
-                                <li><a href="portfolio-grid.html">Portfolio</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="link-widget">
-                           Thank you
-                        </div>
-                    </div> -->
-                    <div class="col-12">
-                        <div class="link-widget">
-                           
-                        </div>
-                    </div>
+                    <img class="img-1" src="./assets/images/thank/thank.png" style=" width: 100%; top: 50px; display: block; margin: auto;"/>
+                    <img class="img-2" src="./assets/images/thank/thank2.png" style=" position: absolute; width: 700px; right: 0; top: 0; display: block; margin: auto;"/>
                 </div>
             </div>
-        </div>
-        <!-- wpo-site-footer end -->
+        </section>
+        <!-- end wpo-event-section -->
 
         <!-- color-switcher -->
         <div class="color-switcher-wrap">
@@ -547,6 +538,30 @@
         </div>
     </div>
     <!-- end of page-wrapper -->
+
+    <style>
+        @media screen and (max-width: 768px) {
+            .wpo-thank-wrap {
+                height: 400px !important;
+            }
+            .wpo-thank-wrap .content {
+                height: 300px  !important;
+            }
+            .img-2 {
+                width: 200px !important;
+            }
+            .wpo-thank-wrap .conttent-wrap {
+                font-size: 1.5rem !important;
+            }
+            .wpo-thank-wrap  .content {
+                width: 100% !important;
+            }
+
+            .wpo-thank-wrap .thank {
+                font-size: 2rem !important;
+            }
+        }
+    </style>
 
     <!-- All JavaScript files
     ================================================== -->
