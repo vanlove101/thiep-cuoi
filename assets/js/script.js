@@ -747,7 +747,7 @@ function(_0x19c5f9) {
             }
         }]
     }));
-    _0x19c5f9('#clock')[_0x5e52ed(0x197)] && _0x19c5f9(_0x5e52ed(0x262))[_0x5e52ed(0x1d5)]('2023/02/11\x208:30:10', function(_0x151bcf) {
+    _0x19c5f9('#clock')[_0x5e52ed(0x197)] && _0x19c5f9(_0x5e52ed(0x262))[_0x5e52ed(0x1d5)]('2023/03/12\x208:30:10', function(_0x151bcf) {
         var _0x1602b2 = _0x5e52ed
           , _0x235f7e = _0x19c5f9(this)[_0x1602b2(0x1be)](_0x151bcf[_0x1602b2(0x1b4)]('' + _0x1602b2(0x1e9) + '<div\x20class=\x22box\x22><div><div\x20class=\x22time\x22>%H</div>\x20<span>Giờ</span>\x20</div></div>' + '<div\x20class=\x22box\x22><div><div\x20class=\x22time\x22>%M</div>\x20<span>Phút</span>\x20</div></div>' + '<div\x20class=\x22box\x22><div><div\x20class=\x22time\x22>%S</div>\x20<span>Giây</span>\x20</div></div>'));
     });
